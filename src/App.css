@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.block {
+  border: 2px solid rgb(68, 68, 68);
+  border-radius: 10px;
+  width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 5px;
+}
+.blockText {
+  font-size: 20px;
+}
+.errorText {
+  color: red;
+}
+.errorDiv {
+  height: 1024px;
+  background: url(img/errorImg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.loadingText {
+  color: green;
+}
